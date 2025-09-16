@@ -3,13 +3,11 @@ import TodoCreate from './components/TodoCreate'
 import TodoList from './components/TodoList'
 
 function App() {
-
-
   return (
-    <>
+    <div className="app-container">
       <TodoCreate />
       <TodoList />
-    </>
+    </div>
   )
 }
 
