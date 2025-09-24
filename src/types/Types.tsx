@@ -3,7 +3,8 @@ export interface TodoInitialState {
 }
 
 export interface TodoType {
-   id:number
+   id: number
    content: string
-
+   completed: boolean
+   createdAt: Date
 }
